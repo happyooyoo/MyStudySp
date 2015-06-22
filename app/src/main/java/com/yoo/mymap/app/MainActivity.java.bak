@@ -20,7 +20,6 @@ public class MainActivity extends Activity {
         SDKInitializer.initialize(getApplicationContext());
         setContentView(R.layout.activity_main);
         mMapView=(MapView)findViewById(R.id.baidu_map);
-		//test for something
     }
 
     @Override
